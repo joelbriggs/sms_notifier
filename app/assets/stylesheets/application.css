@@ -13,3 +13,27 @@
  *= require_tree .
  *= require_self
  */
+
+h1 {
+    text-align: center;
+}
+.sms-buttons {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+a {
+    background-color: #57cc99;
+    box-shadow: 1px 1px 0 #80ed99;
+    color: #181818;
+    padding: 1em 1.5em;
+    position: relative;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+a:hover {
+    background-color: #80ed99;
+}
