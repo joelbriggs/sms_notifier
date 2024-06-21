@@ -1,24 +1,16 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This application requires the following installed.
+* Ruby version  3.2.2
+* Rails version 7.1.3
 
-Things you may want to cover:
+To begin clone the project onto your machine and run the `bundle install` command.
+We are using Redis to process background jobs so make sure it is running using the `redis-server` command.
+Now start the rails server using the `rails s` command.
 
-* Ruby version
+The project should be running now at `localhost:3000` in your browser
 
-* System dependencies
+Press any of the buttons to simulate an action the user may take and it will send a text message of the action.
 
-* Configuration
+**Note** the Twilio API will not accept the current `account_sid` and `auth_token` in the `sms_gatewat.rb` file.
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
